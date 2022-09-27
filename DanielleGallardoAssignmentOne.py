@@ -1,32 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Sep  7 10:55:30 2022
 CSC 499 Homework
 
 CSC 499
 Fall 2022
 Homework 1: (20 pts.)
-Download and extract the Suran Developer Exam resources:
-https://download.suran.com/developer/developer_exam_resources.zip
 
-Locate the text file called “Sort Me.txt” containing a list of names. 
-Write a command-lineprogram to sort the contents of this file 
-in ascending order first by the length of the name, then
-alphabetically. Expected output is listed below.
-
-You must read input from stdin or a file—do not prompt for user input to specify the file.
-
-You must write output to stdout or to a file. Using a print() command is fine.
-
-You can use any language to write the program. Python is a good choice, especially if you are
-unfamiliar working with stdin and stdout.
-
-The program must run on Linux or macOS. If you have a Windows computer, install the WSL
-(Windows Subsystem for Linux) to get a Linux environment. Ubuntu is a popular distribution to
-use.
-Submit the source code and instructions on how to run it by email to Alex Clay at
-aclay@mac.com by 11:59 PM EST Wednesday September 14, 2022.
-Danielle Gallardo
+Danielle
 """
 this_file = open('Sort Me.txt', 'r')
 new_file = open('Sorted_Me.txt', 'w')
@@ -54,7 +34,7 @@ def sort_array(ar):# Here we sort the array
     
     print(ar)
     
-    ar.sort(key=len)
+    ar.sort(key=len, reverse=True)
         
     print("final")
     print(ar)
