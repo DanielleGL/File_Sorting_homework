@@ -7,5 +7,7 @@ For batch testing I would go to the folder that its in and type in the folder ad
 
 My Path:
 "C:\Users\liana\anaconda3\python.exe" "C:\Users\liana\OneDrive\Desktop\CSC 499\For Homework Two\DanielleGallardoAssignmentTwo.py"
+
 Example:
+
 "path to python.exe" "Path to py file app"
