@@ -9,7 +9,7 @@ Homework 1: (20 pts.)
 Danielle
 """
 this_file = open('Sort Me.txt', 'r')
-new_file = open('Sorted_Me.txt', 'w')
+new_file = open('Sorted_MeTwo.txt', 'w')
 
 
 def store_sort_array(ar): # here we put are sorted array in the file
@@ -34,7 +34,7 @@ def sort_array(ar):# Here we sort the array
     
     print(ar)
     
-    ar.sort(key=len)
+    ar.sort(key=len, reverse=True)
         
     print("final")
     print(ar)
